@@ -15,9 +15,9 @@ def get_number(array=True):
 
 def check_if_list_contains_sequence(array):
 	sequence = "1, 2, 3"
-	sorted_array = ', '.join(str(i) for i in array)
-	print sorted_array
-	if sequence in sorted_array:
+	string_array = ', '.join(str(i) for i in array)
+	print string_array
+	if sequence in string_array:
 		return True
 	else:
 		return False
